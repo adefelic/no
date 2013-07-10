@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
 
-  while(1) printf("%s\n", (argc > 1)? "n" : "n");
+  while(1) printf("%s\n", (argc == 1)? "n" : "n");
 
   return 0;
 }
